@@ -1,0 +1,416 @@
+*{
+    padding: 0px;
+    margin: 0px; 
+}
+
+
+
+.header-1{
+    background-color: #316dc3;
+    padding: 10px;
+    color: white;
+    
+}
+a{
+    
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+}
+.header-1 i{
+    margin: 0px 7px;
+} 
+.social{
+    float: left;
+}
+.para{
+    float: left;
+    margin-left: 170px;
+}
+.btn{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.btn a{
+    width: auto;
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 13px;
+}
+.header-2{
+    background-color: #f7f8fa;
+}
+
+.show-in-line{
+    display: inline-block;
+}
+.logo img{
+    width: 240px;
+}
+.menu-bar ul li{
+    display: inline-block;
+    
+}
+
+.menu-bar ul li a{
+    padding: 5px 15px;
+    color: black;
+    transition: 0.6s ease;
+}
+.menu-bar{
+    float: right;
+    margin-top: 28px;
+    font-size: 15px;
+}
+.menu-bar ul li a:hover{
+    background-color: #316dc3;
+    color: white;
+    border-radius: 25px;
+}
+ul li.active a{
+    background-color: #316dc3;
+    color: white;
+    border-radius: 25px;
+}
+.marquee-ul{
+    background-color: rgb(14, 125, 216);
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 30px;
+}
+.marquee{
+    height: 40px;
+    
+    
+}
+
+
+.green{
+    color: #8dc63f;
+}
+.white{
+    color: white;
+}
+h1.title{
+    text-align: center;
+    color: #316dc3;
+    margin: 20px 0px;
+    
+}
+.pic{
+    margin: 10px 0px;
+}
+
+.intro{
+    background-color: #f7f8fada;
+    padding: 50px ;
+    
+    
+}
+
+
+.prag-1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: 	rgba(128, 128, 128, 0.911);
+}
+
+.counter{
+    background-color: rgb(14, 125, 216);
+    
+}
+.counter-2{
+    margin: 0px auto;
+    width: 1200px;
+    padding: 50px;
+}
+.food{
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
+.family{
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
+.education{
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+}
+.medical{
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+}
+.greenM{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color:  #8dc63f;
+}
+.medical-num{
+    color: white;
+}
+.family-num{
+    color: white;
+}
+.education-num{
+    color: white;
+}
+
+.food-num{
+    color: white;
+}
+
+.para-medical{
+    color: white;
+}
+.para-education{
+    color: white;
+}
+.para-family{
+    color: white;
+}
+
+.para-food{
+    color: white;
+}
+.activity{
+    color: rgb(14, 125, 216);
+}
+.greenC{
+    color: #8dc63f;
+}
+
+.what{
+    text-align: center;
+    padding: 200px;
+    background-color: #f7f8fada;
+}
+.contain{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 100px auto;
+    
+}
+.contain .box{
+    position: relative;
+    width: calc(400px - 30px);
+    height:calc(300px - 30px) ;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    background: yellowgreen;
+}
+.contain .box .my-icon{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    z-index: 1;
+    background: rgb(14, 125, 216);
+}
+.contain .box:hover .my-icon{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+}
+.contain .box .my-icon .fa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.5s;
+    color: white;
+}
+.contain .box:hover .my-icon .fa{
+    font-size: 40px;
+}
+.contain .box .head{
+    position: absolute;
+    top: 100px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.contain .box .head h2{
+    margin: 0px 0px 10px;
+    padding: 0px;
+    color: white;
+    font-size: 24px;
+
+}
+.contain .box .head p{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.left{
+    width: 60%;
+    display: inline-block;
+    margin: 80px 50px;
+    padding: 0 20px;
+} 
+.right{
+    width: 25%;
+    display: inline-block;
+    padding: 0 20px;
+    margin: 30px;
+    
+
+}
+.half{
+    width: 40%;
+    display: inline-block;
+    background-color:#f7f8fada;
+    margin: 10px;
+    border: 1px solid black;
+}
+.half-2{
+    background-color: #f7f8fada;
+    width: 40%;
+    display: inline-block;
+    border: 1px solid black;
+}
+.half-3{
+    background-color: #f7f8fada;
+    width: 40%;
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid black;
+}
+.half-4{
+    background-color: #f7f8fada;
+    width: 40%;
+    display: inline-block;
+    border: 1px solid black;
+}
+.seperator{
+    width: 70px;
+    height: 3px;
+    background-color: green;
+    display: block;
+}
+.bluish{
+    color: rgb(14, 125, 216);
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 170px;
+    display: inline-block;
+    align-content: center;
+    padding: 20px 20px;
+    
+    
+}
+  
+div.gallery:hover {
+    border: 1px solid #777;
+}
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.tasweer{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.green0{
+    color: green;
+}
+.imagine{
+    color:rgb(14, 125, 216);
+}
+.footer{
+    background-color: #333333;
+    
+}
+.add{
+    width: 30%;
+    display: inline-block;
+    margin: 80px;
+}
+.link{
+    width: 25%;
+    display: inline-block;
+    margin: 50px 10px;
+    color: white;
+
+}
+.connect{
+    width: 25%;
+    display: inline-block;
+    color: white;
+    padding: 5px 2px;
+    margin: 4px;
+}
+ul{
+    list-style: none;
+}
+/* .media{
+    color: white;
+    padding: 20px;
+} */
+.media i{
+    margin: 0px 7px;
+}
+.sepr{
+    width: 40px;
+    height: 3px;
+    background-color: green;
+    display: block;
+}
+.phone i{
+    color: yellowgreen;
+    padding: 2px;
+    margin: 2px;
+}
+.ress{
+    color: #f7f8fada;
+}
+.end{
+    background-color: rgb(14, 125, 216);
+    color: white;
+    height: 50px;
+
+    
+}
+.end p{
+    padding: 18px;
+    font-size: 12px;
+}
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: yellowgreen;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+}
+html{
+    scroll-behavior: smooth;
+}
